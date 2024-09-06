@@ -1,0 +1,103 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.whl
+.Python
+env/
+venv/
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment folders
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+pyvenv.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user/  
+.Rproj.user/**  
+.Rproj.user/**/  
+*.Rproj
+
+# RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.Rproj.user/
+*.Rproj
+
+# R package files
+*.Rbuildignore
+*.RData
+*.Rhistory
+*.Rproj.user/
+packages/
+
+# Packrat
+packrat/lib*
+packrat/src/
+
+# Miscellaneous
+*.tmp
+*.temp
+*.~lock.*
+*.bak
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+.envrc
+
+# Mac-specific files
+.DS_Store
+._*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Common backup files
+*.old
+*~
+*.bak
+
+# VS Code
+.vscode/
+*.code-workspace
